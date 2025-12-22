@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecionando...</title>
+  <script>
+    // Para GitHub Pages com SPAs em subpasta, armazenar a URL que gerou 404
+    var l = window.location;
+    sessionStorage.redirect = l.pathname + l.search + l.hash;
+    // Redirecionar para o index.html na raiz da subpasta
+    var pathArray = l.pathname.split('/').filter(Boolean);
+    var basePath = '/' + pathArray[0] + '/';
+    l.replace(l.origin + basePath + 'index.html');
+  </script>
+</head>
+<body>
+</body>
+</html>
