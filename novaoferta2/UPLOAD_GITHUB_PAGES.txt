@@ -1,0 +1,71 @@
+═══════════════════════════════════════════════════════════════════════════
+  INSTRUÇÕES DE UPLOAD - GitHub Pages
+═══════════════════════════════════════════════════════════════════════════
+
+TUDO ESTÁ PRONTO PARA UPLOAD! Siga os passos abaixo:
+
+═══════════════════════════════════════════════════════════════════════════
+  PASSO 1: Prepare o GitHub
+═══════════════════════════════════════════════════════════════════════════
+
+1. Acesse seu repositório no GitHub
+2. Crie uma NOVA PASTA chamada: novaoferta2
+   (Se já existir, pode usar a mesma)
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PASSO 2: Faça Upload de TODOS os Arquivos
+═══════════════════════════════════════════════════════════════════════════
+
+Faça upload desses arquivos/pastas para a pasta "novaoferta2":
+
+✓ index.html              (arquivo principal)
+✓ 404.html                (redirecionamento)
+✓ favicon.png             (ícone)
+✓ .htaccess               (configuração)
+✓ assets/                 (pasta com os arquivos CSS e JS)
+✓ README.md               (documentação)
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PASSO 3: Configure GitHub Pages (se necessário)
+═══════════════════════════════════════════════════════════════════════════
+
+1. No repositório, vá em: Settings > Pages
+2. Em "Source", selecione: main branch (ou a branch que você usa)
+3. Em "folder", pode deixar em branco (a raiz) OU definir /novaoferta2
+4. Clique em SAVE
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PASSO 4: Aguarde e Acesse
+═══════════════════════════════════════════════════════════════════════════
+
+Aguarde 30-60 segundos e acesse:
+
+https://meusdoramasflix.site/novaoferta2
+
+✓ Tudo deve funcionar perfeitamente!
+
+
+═══════════════════════════════════════════════════════════════════════════
+  RESUMO RÁPIDO
+═══════════════════════════════════════════════════════════════════════════
+
+1. ✓ Copie TODOS os arquivos da pasta "public" para o GitHub
+2. ✓ Crie a pasta "novaoferta2" no seu repositório
+3. ✓ Faça upload de tudo para dentro dessa pasta
+4. ✓ Espere 30 segundos
+5. ✓ Acesse: https://meusdoramasflix.site/novaoferta2
+
+═══════════════════════════════════════════════════════════════════════════
+
+Se algo der errado, verifique:
+- ✓ Todos os arquivos foram copiados?
+- ✓ A pasta "assets" está dentro de "novaoferta2"?
+- ✓ O arquivo "index.html" está na raiz de "novaoferta2"?
+- ✓ Esperou 30 segundos após upload?
+
+═══════════════════════════════════════════════════════════════════════════
+  IMPORTANTE: Já está 100% pronto para usar!
+═══════════════════════════════════════════════════════════════════════════
