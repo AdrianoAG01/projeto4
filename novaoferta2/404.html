@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Redirecionando...</title>
-  <script>
-    // GitHub Pages SPA redirect para subpastas
-    var l = window.location;
-    var path = l.pathname + l.search + l.hash;
-    
-    // Armazenar o path completo para restaurar depois
-    sessionStorage.setItem('redirect', path);
-    
-    // Redirecionar para index.html
-    l.replace(l.origin + path.split('/').slice(0, -1).join('/') + '/index.html');
-  </script>
+    <meta charset="utf-8">
+    <title>Página em carregamento...</title>
+    <script>
+        sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;url=./index.html">
 </head>
 <body>
 </body>
