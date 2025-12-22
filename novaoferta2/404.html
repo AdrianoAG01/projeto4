@@ -3,13 +3,15 @@
 <head>
   <title>Redirecionando...</title>
   <script>
-    // Para GitHub Pages com SPAs em subpasta, armazenar a URL que gerou 404
+    // GitHub Pages SPA redirect para subpastas
     var l = window.location;
-    sessionStorage.redirect = l.pathname + l.search + l.hash;
-    // Redirecionar para o index.html na raiz da subpasta
-    var pathArray = l.pathname.split('/').filter(Boolean);
-    var basePath = '/' + pathArray[0] + '/';
-    l.replace(l.origin + basePath + 'index.html');
+    var path = l.pathname + l.search + l.hash;
+    
+    // Armazenar o path completo para restaurar depois
+    sessionStorage.setItem('redirect', path);
+    
+    // Redirecionar para index.html
+    l.replace(l.origin + path.split('/').slice(0, -1).join('/') + '/index.html');
   </script>
 </head>
 <body>
